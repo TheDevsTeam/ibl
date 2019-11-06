@@ -36,7 +36,7 @@ gem 'bootstrap', '~> 4.1.3'
 # gem 'bootstrap', '~> 4.0.0.beta2.1'
 # gem 'bootstrap', '~> 4.0.0.alpha6'
 # gem 'bootstrap', '~> 4.0.0.alpha3'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.4'
 gem 'friendly_id', '~> 5.1.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 gem 'jquery-rails'
 gem 'sprockets-rails', '~> 2.3', '>= 2.3.3'
