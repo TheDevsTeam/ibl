@@ -7,7 +7,7 @@ set :repo_url, "git@github.com:TheDevsTeam/ibl.git"
 # https://github.com/TheDevsTeam/ibl.git
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
-
+set :passenger_restart_with_touch, true
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
 
@@ -15,7 +15,7 @@ set :deploy_to, '/home/deploy/ibl'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
-
+set :default_env, { path: "/home/deploy/.rbenv/shims:~/.rbenv/bin:$PATH" }
 # You can configure the Airbrussh format using :format_options.
 # These are the defaults.
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
